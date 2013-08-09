@@ -1,0 +1,6 @@
+name: Lonely Planet Standards
+markdown: redcarpet
+pygments: true
+safe: true
+lsi: false
+baseurl: /standards

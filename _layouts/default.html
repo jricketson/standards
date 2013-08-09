@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/overrides.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
+      </header>
+
+      <sidebar>
+        <section class="categories">
+          <h3>Categories</h3>
+          <ul class="categories">
+            {% for category in site.categories %}
+              <li><a href="{{ site.baseurl }}/categories/{{ category[0] }}.html">{{ category[0] }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
+        <section class="tags">
+          <h3>Tags</h3>
+          <ul class="tag">
+            {% for tag in site.tags %}
+              <li><a href="{{ site.baseurl }}{{ tag[0] }}">{{ tag[0] }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
+        <div style="clear:both;"></div>
+      </sidebar>
+
+      <section class="content">
+      {{ content }}
+      </section>
+      <div style="clear:both;"></div>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/lonelyplanet">Lonely Planet</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme originally by orderedlist</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Use AWS for deployment of all resources"
+date:   2013-08-09 13:49:05
+categories: deployment
+tags: build deployment code
+excerpt: AWS is a super convenient way to deploy infrastructure. Lets do it more
+---
+
+some stuff about things and other stuff

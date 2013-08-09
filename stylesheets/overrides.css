@@ -1,0 +1,53 @@
+body > .wrapper {
+  width: 1000px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 700, color-stop(0%, #fafafa), color-stop(100%, #dedede));
+  background: -webkit-linear-gradient(#fafafa, #dedede 700px);
+  background: -moz-linear-gradient(#fafafa, #dedede 700px);
+  background: -o-linear-gradient(#fafafa, #dedede 700px);
+  background: -ms-linear-gradient(#fafafa, #dedede 700px);
+  background: linear-gradient(#fafafa, #dedede 700px);
+}
+ul.posts {
+  margin: 0px;
+  padding: 0px;
+}
+ul.posts li {
+  border: 1px solid black;
+  padding: 18px;
+  list-style-type: none;
+  margin: 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+body > .wrapper sidebar {
+  width: 200px;
+  float: left;
+}
+body > .wrapper sidebar section {
+  padding: 20px;
+  border-radius: 0px;
+}
+body > .wrapper sidebar section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+body > .wrapper section.content {
+  width: 800px;
+  float: right;
+  padding: 20px 0 0 0;
+}
+
+section {
+  padding: 15px 20px;
+  font-size: 15px;
+  border-top: none;
+  background: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  position: relative;
+}
+
